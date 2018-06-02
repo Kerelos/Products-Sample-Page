@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Home Page</title>
+
+					<link rel="stylesheet" href="css/bootstrap.css">
+					<link rel="stylesheet" href="css/style.css">
+					<script src="js/jquery.js"></script>
+					<script src="js/bootstrap.js"></script>
+					
+	</head>
+	<style>
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+
+  }
+</style>
+<style>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+}
+
+.button3:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+</style>
+	<script>
+		function openPopUp()
+		{
+			 var popup = document.getElementById("popUp").style.width="100%";
+		}
+		
+		function closePopUp()
+		{
+			 var popup = document.getElementById("popUp").style.width="0%";
+		}
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<body style="text-align:center;">
+	
+
+<div id="popUp" class="overlay">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closePopUp()">&times;</a>
+
+			  <div style="text-align: left; margin-left: 5%; "class="overlay-content">
+			   		<font size="6vw"><b>Category</b><br></font>
+  <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw">Consumer Electronics</font><br>
+  <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw">Home & Living</font><br>
+ <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw">Children & Baby</font><br>
+  <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw">Household</font><br>
+
+							<font size="6vw"><b>Condition</b><br></font>
+ <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw">Unchecked</font><br>
+  <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw">Like New</font><br>
+ <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw">Used With Flaws</font><br>
+  <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw">Defect</font><br>
+  <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw">Mixed</font><br>
+									
+									
+									<font size="6vw"><b>Price</b><br></font>
+	 <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw"> 0 &euro;	- 99 &euro;	</font><br>
+	 <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw"> 100 &euro;	- 199 &euro;	</font><br>
+	 <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw"> 200 &euro;	- 299 &euro;	</font><br>
+	 <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw"> 300 &euro;	- 399 &euro;	</font><br>
+  	 <input style="  transform: scale(1.5);"type="checkbox"> &ensp; <font size="5vw"> > 400 &euro; </font><br>
+
+  <br>
+  
+			<div align="center">
+				<button style="padding: 10px 100px; border-radius: 12px;"class="btn btn-warning">
+								<font size="5vw"><b>Apply</b></font>
+							</button>						  <br>	  <br>
+				<button style="background-color: #e7e7e7; color: black;padding: 10px 100px; border-radius: 12px;"class="btn btn-warning">
+								<font size="5vw"><b>Cancel</b></font>
+							</button>						  <br>
+						  &ensp;
+			</div>
+
+			  </div>
+			</div>
+	<div>
+			<nav style="margin:5%">
+				<a class="navbar-brand" href="#"><b><font color="black" ; size="5vw" >Brand</font></b></a>
+				
+					<button style="float: right;" type="button" class="btn btn-default btn-lg">
+					  <span align="right" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> 
+					</button>				
+			</nav>
+		</div>	
+		<br><br>
+		<br><br>
+		<img src="Images/1.png"  style="width:100%;height:auto;">
+			<div style=" text-transform: uppercase;background-color: orange;">
+				<div style="text-align: left; margin-left: 5%; ">
+				<font size="10vw" color="white"><span style="flex-wrap">New LOTS POSTED DAILY. CLICK HERE TO GET NOTIFIED!</span></font>
+				</div>
+			</div>
+			<br>
+			<div align="left">
+			<button style="background-color: #a9a9a9; color: black; margin-left: 5%; padding: 10px 80px; border-radius: 8px;" onclick="openPopUp()">
+				<font size="5vw" ; color="black"><b>Filters</b></font>
+				</div>
+			</button>
+
+		<br><br>
+			
+						<br><br>
+	<div style=" margin-left: 5%; margin-right: 5%;border: 2px solid gray; border-radius: 12px;">
+							<img src="Images/2.png" style="width:100%;height:auto;">
+							<br><br>
+						<div style="font-size:4vw ;text-align: left; margin-left: 5%;">
+							<span style="flex-wrap"><b>Patagonia Netgear Samsung Bulk Bla Viel Spielzeug Lorem Ipsum….</b>
+							</span></div>
+							<div style="text-align: left; font-size:3vw;margin-left:26%;">
+								
+										<del style="vertical-align: text-top;"> <font color="gray">399 &euro;	</font></del>
+							<br>
+									<font color="orange">289 &euro;	 &emsp; </font>
+				<span align="right" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>&ensp; Unchecked &emsp; <b>8</b>  Units
+										
+								 <br>
+							</div>
+							<br>					
+							<button style="padding: 10px 80px; border-radius: 12px;"class="btn btn-warning">
+								<font size="5vw"><b>View Details</b></font>
+							</button>
+							<br>						<br><br>
+
+						</div>
+		<br><br>
+		<div style=" margin-left: 5%; margin-right: 5%;border: 2px solid gray; border-radius: 12px;">
+							<img src="Images/2.png" style="width:100%;height:auto;">
+							<br><br>
+						<div style="font-size:4vw ;text-align: left; margin-left: 5%;">
+							<span style="flex-wrap"><b>Patagonia Netgear Samsung Bulk Bla Viel Spielzeug Lorem Ipsum….</b>
+							</span></div>
+							<div style="text-align: left; font-size:3vw;margin-left:27%;">
+								
+										<del style="vertical-align: text-top;"> <font color="gray">399 &euro;</font></del>
+							<br>
+									<font color="orange">289 &euro;	 &emsp; &emsp;</font>
+				<span align="right" class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>&ensp; Used &emsp; &emsp; <b>8</b>  Units
+										
+								 <br>
+							</div>
+							<br>					
+							<button style="padding: 10px 80px; border-radius: 12px;"class="btn btn-warning">
+								<font size="5vw"><b>View Details</b></font>
+							</button>
+							<br>						<br><br>
+
+						</div>
+								<br><br>
+
+							<div style=" margin-left: 5%; margin-right: 5%;border: 2px solid gray; border-radius: 12px;">
+							<img src="Images/2.png" style="width:100%;height:auto;">
+							<br><br>
+						<div style="font-size:4vw ;text-align: left; margin-left: 5%;">
+							<span style="flex-wrap"><b>Patagonia Netgear Samsung Bulk Bla Viel Spielzeug Lorem Ipsum….</b>
+							</span></div>
+							<div style="text-align: left; font-size:3vw;margin-left:25%;">
+								
+										<del style="vertical-align: text-top;"> <font color="gray">399 &euro;	</font></del>
+							<br>
+									<font color="orange">289 &euro;	 &emsp;&emsp; </font>
+				<span align="right" class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&ensp; Like New &emsp;&emsp; <b>8</b> Units
+										
+								 <br>
+							</div>
+							<br>					
+							<button style="padding: 10px 80px; border-radius: 12px;"class="btn btn-warning">
+								<font size="5vw"><b>View Details</b></font>
+							</button>
+							<br>						<br><br>
+
+						</div>
+								<br><br>
+ 
+		<div >
+			<button class="button button3">
+			1
+			</button>
+			<button class="button button3">
+			2
+			</button>
+			<button class="button button3">
+			3
+			</button>
+			<button class="button button3">
+			4
+			</button>
+			<button class="button button3">
+			Next >
+			</button>
+
+		</div>
+		<div style="margin:5%"; align="left">
+		<font size="10vw"><b>Brand</b><br></font>
+		<br>
+		<font size="6vw"><b>Company</b><br></font>
+		<font size="5vw">About Us<br></font>
+		<font size="5vw">Sign Up / Log In<br></font>
+		<font size="5vw">FAQ<br></font>
+		<br>
+		<font size="6vw"><b>Information</b><br></font>
+		<font size="5vw">Inventory Notifications<br></font>
+		<font size="5vw">Terms & Conditions<br></font>
+		<font size="5vw">Imprint<br></font>
+		
+		<br>
+		<font size="6vw"><b>Contact</b><br></font>
+		<font size="5vw">b2b@brand.com<br></font>
+		<font size="5vw">skype: b2b_brand</font>
+		
+
+		</font>
+		</div>
+	</body>
+
+</html>
